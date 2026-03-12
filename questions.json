@@ -1,0 +1,106 @@
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "category": "Bina ve Konstrüksiyon",
+      "question": "Ana yapı tipi nedir?",
+      "options": [
+        {"text": "Betonarme / yanmaz yapı", "score": 10},
+        {"text": "Çelik yapı", "score": 7},
+        {"text": "Sandviç panel / kısmen yanıcı", "score": 3},
+        {"text": "Ağırlıklı yanıcı yapı", "score": 0}
+      ],
+      "red_flags": ["Ağırlıklı yanıcı yapı"],
+      "tip": "Yanıcı yapı elemanları bulunan tesislerde yangın yayılım riski artar."
+    },
+    {
+      "id": "Q2",
+      "category": "Yangın Koruma",
+      "question": "Sprinkler sistemi durumu nedir?",
+      "options": [
+        {"text": "Tam sprinkler", "score": 15},
+        {"text": "Kısmi sprinkler", "score": 8},
+        {"text": "Yok", "score": 0}
+      ],
+      "red_flags": ["Yok"],
+      "tip": "Sprinkler sistemi yangın riskini önemli ölçüde azaltır."
+    },
+    {
+      "id": "Q3",
+      "category": "Yangın Koruma",
+      "question": "Yangın algılama ve ihbar sistemi var mı?",
+      "options": [
+        {"text": "Adresli ve bakımlı", "score": 10},
+        {"text": "Temel sistem var", "score": 6},
+        {"text": "Sınırlı / yetersiz", "score": 2},
+        {"text": "Yok", "score": 0}
+      ],
+      "red_flags": ["Yok"],
+      "tip": "Algılama sistemleri erken müdahale sağlar."
+    },
+    {
+      "id": "Q4",
+      "category": "Elektrik",
+      "question": "Elektrik tesisatının genel durumu nasıldır?",
+      "options": [
+        {"text": "Yeni / düzenli kontrollü", "score": 10},
+        {"text": "Kabul edilebilir", "score": 6},
+        {"text": "Eski / düzensiz", "score": 2},
+        {"text": "Belirsiz / kötü", "score": 0}
+      ],
+      "red_flags": ["Belirsiz / kötü"],
+      "tip": "Elektrik tesisatları yangınların önemli bir sebebidir."
+    },
+    {
+      "id": "Q5",
+      "category": "Elektrik",
+      "question": "Termal kamera ile pano kontrolleri yapılıyor mu?",
+      "options": [
+        {"text": "Düzenli", "score": 10},
+        {"text": "Aralıklı", "score": 5},
+        {"text": "Yapılmıyor", "score": 0}
+      ],
+      "red_flags": ["Yapılmıyor"],
+      "tip": "Termal kamera kontrolleri elektrik yangınlarını önlemede önemlidir."
+    },
+    {
+      "id": "Q6",
+      "category": "Housekeeping",
+      "question": "Tesis içi düzen ve temizlik seviyesi nedir?",
+      "options": [
+        {"text": "Çok iyi", "score": 10},
+        {"text": "Orta", "score": 6},
+        {"text": "Zayıf", "score": 2},
+        {"text": "Çok zayıf", "score": 0}
+      ],
+      "red_flags": ["Çok zayıf"],
+      "tip": "Yanıcı atıkların birikmesi yangın riskini artırır."
+    },
+    {
+      "id": "Q7",
+      "category": "Faaliyet",
+      "question": "Faaliyet tipi tehlike seviyesi nedir?",
+      "options": [
+        {"text": "Düşük tehlike", "score": 10},
+        {"text": "Orta tehlike", "score": 6},
+        {"text": "Yüksek tehlike", "score": 2},
+        {"text": "Çok yüksek tehlike", "score": 0}
+      ],
+      "red_flags": ["Çok yüksek tehlike"],
+      "tip": "Yüksek tehlikeli faaliyetlerde ek koruma önlemleri gerekir."
+    },
+    {
+      "id": "Q8",
+      "category": "Acil Müdahale",
+      "question": "En yakın itfaiyeye erişim nasıldır?",
+      "options": [
+        {"text": "Çok iyi / yakın", "score": 10},
+        {"text": "Orta", "score": 6},
+        {"text": "Uzak", "score": 2},
+        {"text": "Çok uzak / erişim sorunlu", "score": 0}
+      ],
+      "red_flags": ["Çok uzak / erişim sorunlu"],
+      "tip": "İtfaiye erişimi zayıfsa tesis içi müdahale kapasitesi önem kazanır."
+    }
+  ]
+}
